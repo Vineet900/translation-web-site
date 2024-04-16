@@ -40,7 +40,7 @@ function Dictionary() {
         <textarea
           className="border-2 border-black m-12 p-8 rounded-md text-xl text-gray-700 "
           cols="50"
-          value={input?"Loading...":input.means}
+          value={!input?"Loading...":input.means}
           rows="10"
         ></textarea>
         
